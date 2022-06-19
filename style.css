@@ -1,0 +1,104 @@
+* {
+	/* border: 1px solid green; */
+	font-family: poppins;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+*:focus {
+	outline: none;
+}
+
+body{
+	position: relative;
+	overflow: hidden;
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	/* background-color: rgb(235, 235, 235); */
+	background-color: #000000;
+		background-image: url("https://www.transparenttextures.com/patterns/xv.png");
+		/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+}
+
+#search{
+	position: absolute;
+	top: 1rem;
+	right: 1rem;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 1rem;
+	/* width: 50vw; */
+}
+input{
+	border: 1px solid #ccc;
+	height: 31px;
+	padding-left: 0.5rem;
+}
+button{
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	padding: 0.25rem 0.5rem;
+}
+
+h3{
+	font-weight: 500;
+	font-size: 2rem;
+}
+h5 {
+	font-weight: 300;
+	font-size: 1rem;
+}
+.header {
+	margin-left: -2rem;
+	display: flex;
+	justify-content: center;
+	/* gap: 0.25rem; */
+}
+.header-text {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+h1 {
+	font-weight: 300;
+	font-size: 5rem;
+	font-family: poppins;
+}
+.big{
+	font-size: 2rem;
+	/* font-weight: 300; */
+	/* text-align: left; */
+	/* vertical-align: ce; */
+}
+#main{
+	/* padding-left: 106px; */
+	justify-content: center;
+	display: flex;
+	gap: 1rem;
+}
+.stats{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	gap: 0.25rem;
+}
+#content{
+	border-radius: 10px;
+	padding: 1rem 2rem;
+	background-color: rgba(255, 255, 255, 0.75);
+	left: 5rem;
+}
+
+#title{
+	font-family: poppins;
+	color: #ccc;
+	font-size: 2rem;
+	position: fixed;
+	top: 1rem;
+	left: 1rem;
+}
